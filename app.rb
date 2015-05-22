@@ -13,7 +13,6 @@ class App < Sinatra::Application
 
   post "/annotate/:name" do
     payload = JSON.parse(params[:payload])
-    puts payload.inspect
     state = payload["deployment_status"]["state"]
 
     if state != "pending"
