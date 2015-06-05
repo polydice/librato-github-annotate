@@ -14,6 +14,10 @@ Set the following ENV variables during deployment:
 
 Once you've done, you can add `/annotate/:source` as GitHub webhook with `deployment_status` event enabled.
 
+Deploy it right now!
+
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 ## License
 
 MIT License. See LICENSE for details.
