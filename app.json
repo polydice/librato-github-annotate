@@ -15,9 +15,5 @@
       "description": "Metrix name in librato",
       "value": "deployment"
     },
-    "PROCESS_COUNT": {
-      "description": "Number of processes",
-      "value": "3"
-    }
   }
 }
