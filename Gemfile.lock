@@ -4,6 +4,7 @@ GEM
     aggregate (0.2.2)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
+    kgio (2.9.3)
     librato-metrics (1.5.0)
       aggregate (~> 0.2.2)
       faraday (~> 0.7)
@@ -13,12 +14,20 @@ GEM
     rack (1.6.1)
     rack-protection (1.5.3)
       rack
-    rainbow (2.0.0)
+    rainbows (4.6.2)
+      kgio (~> 2.5)
+      rack (~> 1.1)
+      unicorn (~> 4.8)
+    raindrops (0.13.0)
     sinatra (1.4.6)
       rack (~> 1.4)
       rack-protection (~> 1.4)
       tilt (>= 1.3, < 3)
     tilt (2.0.1)
+    unicorn (4.9.0)
+      kgio (~> 2.6)
+      rack
+      raindrops (~> 0.7)
     yajl-ruby (1.2.1)
 
 PLATFORMS
@@ -26,6 +35,6 @@ PLATFORMS
 
 DEPENDENCIES
   librato-metrics
-  rainbow
+  rainbows
   sinatra
   yajl-ruby

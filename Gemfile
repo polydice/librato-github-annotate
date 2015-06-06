@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem "sinatra"
-gem "rainbow"
+gem "rainbows"
 
 gem "yajl-ruby"
 gem "librato-metrics"
