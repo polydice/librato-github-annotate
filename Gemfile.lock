@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     aggregate (0.2.2)
+    eventmachine (1.0.7)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
     kgio (2.9.3)
@@ -34,6 +35,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  eventmachine
   librato-metrics
   rainbows
   sinatra
