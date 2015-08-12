@@ -4,12 +4,10 @@
   "repository": "https://github.com/polydice/librato-github-annotate",
   "env": {
     "LIBRATO_EMAIL": {
-      "description": "Your librato email.",
-      "generator": "secret"
+      "description": "Your librato email."
     },
     "LIBRATO_API_KEY":  {
-      "description": "Your librato API key.",
-      "generator": "secret"
+      "description": "Your librato API key."
     },
     "ANNOTATION_NAME": {
       "description": "Metrix name in librato",
